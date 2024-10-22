@@ -1,0 +1,1 @@
+SELECT COUNT(*) from academic_professional_data WHERE position LIKE '%{{Table1.searchText}}%';

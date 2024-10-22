@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "100%\n",
+  "bottomRow": 10,
+  "boxShadow": "none",
+  "buttonColor": "#22c55e",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "tick",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "45vklj4t9t",
+  "leftColumn": 29,
+  "minWidth": 120,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 23,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 4,
+  "needsErrorInfo": false,
+  "onClick": "",
+  "originalBottomRow": 61,
+  "originalTopRow": 57,
+  "parentColumnSpace": 18.8828125,
+  "parentId": "f3o1jd5a7c",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 33,
+  "text": "",
+  "topRow": 3,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "zrg4w90ddy",
+  "widgetName": "step6Copy"
+}
