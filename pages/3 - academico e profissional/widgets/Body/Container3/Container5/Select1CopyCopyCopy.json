@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 30,
+  "boxShadow": "none",
+  "defaultOptionValue": "GREEN",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "feg8npuvdb",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Área de Conhecimento 3",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 55,
+  "mobileLeftColumn": 14,
+  "mobileRightColumn": 34,
+  "mobileTopRow": 48,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 27,
+  "originalTopRow": 21,
+  "parentColumnSpace": 19.5,
+  "parentId": "in23de47o1",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 20,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Ciências Exatas e da Terra\",\n    \"code\": \"CIENCIAS_EXATAS_TERRA\"\n  },\n  {\n    \"name\": \"Engenharias\",\n    \"code\": \"ENGENHARIAS\"\n  },\n  {\n    \"name\": \"Ciências da Saúde\",\n    \"code\": \"CIENCIAS_SAUDE\"\n  },\n  {\n    \"name\": \"Ciências Sociais Aplicadas\",\n    \"code\": \"CIENCIAS_SOCIAIS_APLICADAS\"\n  },\n  {\n    \"name\": \"Ciências Humanas\",\n    \"code\": \"CIENCIAS_HUMANAS\"\n  },\n  {\n    \"name\": \"Outros\",\n    \"code\": \"OUTROS\"\n  },\n  {\n    \"name\": \"Ciências Agrárias\",\n    \"code\": \"CIENCIAS_AGRARIAS\"\n  },\n  {\n    \"name\": \"Ciências da Vida\",\n    \"code\": \"CIENCIAS_VIDA\"\n  },\n  {\n    \"name\": \"Linguística, Letras e Artes\",\n    \"code\": \"LINGUISTICA_LETRAS_ARTES\"\n  }\n]\n",
+  "topRow": 23,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "dqq2h82ldq",
+  "widgetName": "Select1CopyCopyCopy"
+}

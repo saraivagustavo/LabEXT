@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "defaultOptionValue": "GREEN",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "jfsmtvz7y1",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "UF",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 40,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 27,
+  "mobileLeftColumn": 18,
+  "mobileRightColumn": 38,
+  "mobileTopRow": 20,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 16.4453125,
+  "parentId": "2tz80myb2d",
+  "parentRowSpace": 10,
+  "placeholderText": "Selecione",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "serverSideFiltering": false,
+  "sourceData": "[\n    {\"code\": \"AC\", \"name\": \"AC\"},\n    {\"code\": \"AL\", \"name\": \"AL\"},\n    {\"code\": \"AP\", \"name\": \"AP\"},\n    {\"code\": \"AM\", \"name\": \"AM\"},\n    {\"code\": \"BA\", \"name\": \"BA\"},\n    {\"code\": \"CE\", \"name\": \"CE\"},\n    {\"code\": \"DF\", \"name\": \"DF\"},\n    {\"code\": \"ES\", \"name\": \"ES\"},\n    {\"code\": \"GO\", \"name\": \"GO\"},\n    {\"code\": \"MA\", \"name\": \"MA\"},\n    {\"code\": \"MT\", \"name\": \"MT\"},\n    {\"code\": \"MS\", \"name\": \"MS\"},\n    {\"code\": \"MG\", \"name\": \"MG\"},\n    {\"code\": \"PA\", \"name\": \"PA\"},\n    {\"code\": \"PB\", \"name\": \"PB\"},\n    {\"code\": \"PR\", \"name\": \"PR\"},\n    {\"code\": \"PE\", \"name\": \"PE\"},\n    {\"code\": \"PI\", \"name\": \"PI\"},\n    {\"code\": \"RJ\", \"name\": \"RJ\"},\n    {\"code\": \"RN\", \"name\": \"RN\"},\n    {\"code\": \"RS\", \"name\": \"RS\"},\n    {\"code\": \"RO\", \"name\": \"RO\"},\n    {\"code\": \"RR\", \"name\": \"RR\"},\n    {\"code\": \"SC\", \"name\": \"SC\"},\n    {\"code\": \"SP\", \"name\": \"SP\"},\n    {\"code\": \"SE\", \"name\": \"SE\"},\n    {\"code\": \"TO\", \"name\": \"TO\"}\n]",
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "jtvcuclqpi",
+  "widgetName": "uf"
+}

@@ -1,0 +1,14 @@
+SELECT * FROM users
+WHERE name = '{{ full_name.text }}'
+WHERE date_of_birth = '{{ date_of_birth.date }}'
+WHERE email = '{{ email.text }}'
+WHERE sex = '{{ sex.text }}'
+WHERE mother_name = '{{ mother_name.text }}'
+WHERE password = '{{ password.text }}'
+WHERE oe = '{{ org_emissor.text }}'
+WHERE uf = '{{ uf.text }}'
+WHERE name = '{{ full_name.text }}'
+
+WHERE phone_number = '{{ phone_number.text }}'
+
+LIMIT 10;

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 27,
+  "bottomRow": 29,
   "boxShadow": "none",
   "buttonColor": "#71717a",
   "buttonVariant": "SECONDARY",
@@ -11,7 +11,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -24,8 +28,9 @@
   "mobileRightColumn": 35,
   "mobileTopRow": 6,
   "needsErrorInfo": false,
-  "originalBottomRow": 24,
-  "originalTopRow": 20,
+  "onClick": "{{navigateTo('Dados pessoais', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 27,
+  "originalTopRow": 23,
   "parentColumnSpace": 16.8212890625,
   "parentId": "f3o1jd5a7c",
   "parentRowSpace": 10,
@@ -36,7 +41,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 30,
   "text": "Voltar à página inicial",
-  "topRow": 23,
+  "topRow": 25,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "hsue6z67ya",

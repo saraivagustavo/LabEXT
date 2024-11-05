@@ -24,7 +24,7 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('dados academicos  profissionai', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('3 - academico e profissional', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 18.8828125,
   "parentId": "1vpqineg2x",
   "parentRowSpace": 10,

@@ -28,7 +28,7 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('2 - endereço residencial', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{resetWidget(\"\",true)}}",
   "parentColumnSpace": 18.8828125,
   "parentId": "1vpqineg2x",
   "parentRowSpace": 10,

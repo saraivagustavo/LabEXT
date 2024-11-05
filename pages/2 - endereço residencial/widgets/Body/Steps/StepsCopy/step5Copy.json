@@ -24,7 +24,7 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('confirmar dados', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('5 - confirmar dados', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 18.8828125,
   "parentId": "1vpqineg2x",
   "parentRowSpace": 10,

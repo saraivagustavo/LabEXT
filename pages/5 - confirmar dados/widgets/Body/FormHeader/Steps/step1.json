@@ -28,7 +28,7 @@
   "mobileRightColumn": 39,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Page1', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('Dados pessoais', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 18.8828125,
   "parentId": "6ndsdx94zk",
   "parentRowSpace": 10,

@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 29,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "g6kl4x5zdf",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Raça / Cor",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 44,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 38,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 42,
+  "mobileTopRow": 31,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 14.390869140625,
+  "parentId": "f3o1jd5a7c",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Amarela\",\n    \"code\": \"AMARELA\"\n  },\n  {\n    \"name\": \"Branca\",\n    \"code\": \"BRANCA\"\n  },\n  {\n    \"name\": \"Indígena\",\n    \"code\": \"INDIGENA\"\n  },\n\t{\n    \"name\": \"Não Declarada\",\n    \"code\": \"NDECLARADA\"\n  },\n\t{\n    \"name\": \"Parda\",\n    \"code\": \"PARDA\"\n  },\n\t{\n    \"name\": \"Preta\",\n    \"code\": \"PRETA\"\n  }\n]",
+  "topRow": 22,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "49hqa19ckw",
+  "widgetName": "raca_cor"
+}

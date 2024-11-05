@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "alignment": "left",
   "animateLoading": true,
-  "bottomRow": 13,
+  "bottomRow": 10,
   "boxShadow": "none",
   "defaultOptionValue": "N",
   "dynamicBindingPathList": [
@@ -28,7 +28,7 @@
   "labelPosition": "Top",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 2,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "mobileBottomRow": 38,
@@ -36,7 +36,7 @@
   "mobileRightColumn": 18,
   "mobileTopRow": 32,
   "needsErrorInfo": false,
-  "onSelectionChange": "{{navigateTo('endereço residencial', {\n  \"endereço residencial gringo\": \"N\"\n}, 'SAME_WINDOW').then(() => {\n  resetWidget(\"\", true);\n}).catch(() => {\n  navigateTo('endereço residencial', {}, 'SAME_WINDOW');\n});}}",
+  "onSelectionChange": "{{navigateTo('2 - endereço residencial', {\n  \"endereço residencial gringo\": \"N\"\n}, 'SAME_WINDOW').then(() => {\n  navigateTo('2 - endereço residencial', {}, 'SAME_WINDOW');\n}).catch(() => {});}}",
   "options": [
     {
       "label": "Sim",
@@ -47,14 +47,14 @@
       "value": "N"
     }
   ],
-  "originalBottomRow": 13,
-  "originalTopRow": 7,
+  "originalBottomRow": 10,
+  "originalTopRow": 4,
   "parentColumnSpace": 3.3046875,
   "parentId": "1cy3frepi9",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 14,
-  "topRow": 7,
+  "rightColumn": 12,
+  "topRow": 4,
   "type": "RADIO_GROUP_WIDGET",
   "version": 1,
   "widgetId": "2a0icvbrht",

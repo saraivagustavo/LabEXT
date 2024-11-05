@@ -36,7 +36,7 @@
   "mobileRightColumn": 18,
   "mobileTopRow": 32,
   "needsErrorInfo": false,
-  "onSelectionChange": "{{navigateTo('endereço residencial gringo', {\n  \"endereço residencial gringo\": \"N\"\n}, 'SAME_WINDOW').then(() => {\n  resetWidget(\"\", true);\n}).catch(() => {\n  navigateTo('endereço profissional', {}, 'SAME_WINDOW');\n});}}",
+  "onSelectionChange": "{{navigateTo('4 - endereço PROFISSIONAL', {\n  \"endereço residencial gringo\": \"N\"\n}, 'SAME_WINDOW').then(() => {\n  resetWidget(\"\", true);\n}).catch(() => {\n  navigateTo('4 - endereço PROFISSIONAL', {}, 'SAME_WINDOW');\n});}}",
   "options": [
     {
       "label": "Sim",
