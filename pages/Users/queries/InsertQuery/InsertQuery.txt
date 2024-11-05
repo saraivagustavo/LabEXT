@@ -1,0 +1,26 @@
+INSERT INTO users (
+	nome_completo,
+	nome_mae,
+	nome_pai,
+	data_nascimento,
+	cpf,
+	rg,
+	orgao_emissor,
+	uf,
+	data_emissao,
+	celular,
+	email
+)
+VALUES (
+	'{{insert_form.formData.nome_completo}}',
+	'{{insert_form.formData.nome_mae}}',
+	'{{insert_form.formData.nome_pai}}',
+	'{{insert_form.formData.data_nascimento}}',
+	'{{insert_form.formData.cpf}}',
+	'{{insert_form.formData.rg}}',
+	'{{insert_form.formData.orgao_emissor}}',
+	'{{insert_form.formData.uf}}',
+	'{{insert_form.formData.data_emissao}}',
+	'{{insert_form.formData.celular}}',
+	'{{insert_form.formData.email}}'
+);

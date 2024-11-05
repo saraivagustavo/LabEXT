@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM users\nWHERE name = '{{ full_name.text }}'\nWHERE date_of_birth = '{{ date_of_birth.date }}'\nWHERE email = '{{ email.text }}'\nWHERE sex = '{{ sex.text }}'\nWHERE mother_name = '{{ mother_name.text }}'\nWHERE password = '{{ password.text }}'\nWHERE oe = '{{ org_emissor.text }}'\nWHERE uf = '{{ uf.text }}'\nWHERE name = '{{ full_name.text }}'\n\nWHERE phone_number = '{{ phone_number.text }}'\n\nLIMIT 10;\n",
+      "body": "INSERT INTO users (nome_completo, data_nascimento, email, sexo, nome_mae, nome_pai, senha, nova_senha, orgao_emissor, uf, celular, data_emissao, cpf, raca_cor)\nVALUES (\n    '{{ full_name.text }}',\n    '{{ date_of_birth.formattedDate }}',\n    '{{ email.text }}',\n    '{{ sex.selectedOptionValue }}',\n    '{{ mother_name.text }}',\n    '{{ father_name.text }}',\n\t\t'{{ password.text }}',\n    '{{ verify_password.text }}',\n    '{{ org_emissor.text }}',\n    '{{ uf.selectedOptionValue }}',\n    '{{ phone_number.text }}',\n    '{{ date_emissao.formattedDate }}',\n    '{{ cpf.text }}',\n    '{{ raca_cor.selectedOptionValue }}'\n);\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

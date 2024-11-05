@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 6,
+  "bottomRow": 7,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -14,8 +14,20 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onBlur"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    },
+    {
+      "key": "onBlur"
+    }
+  ],
   "iconAlign": "left",
   "inputType": "TEXT",
   "isDisabled": false,
@@ -30,6 +42,7 @@
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
+  "maxChars": "9",
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -38,15 +51,20 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 24,
   "needsErrorInfo": false,
-  "originalBottomRow": 30,
-  "originalTopRow": 23,
+  "onBlur": "{{cep.formatZipCode()}}",
+  "onFocus": "{{}}",
+  "onTextChanged": "",
+  "originalBottomRow": 6,
+  "originalTopRow": 0,
   "parentColumnSpace": 3.3046875,
   "parentId": "qb9q01oj10",
   "parentRowSpace": 10,
+  "regex": "",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 14,
+  "shouldAllowAutofill": false,
   "showStepArrows": false,
   "topRow": 0,
   "type": "INPUT_WIDGET_V2",

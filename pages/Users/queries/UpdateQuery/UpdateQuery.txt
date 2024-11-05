@@ -1,0 +1,13 @@
+UPDATE users SET
+		nome_completo = '{{update_form.fieldState.nome_completo.isVisible ? update_form.formData.nome_completo : update_form.sourceData.nome_completo}}',
+		nome_mae = '{{update_form.fieldState.nome_mae.isVisible ? update_form.formData.nome_mae : update_form.sourceData.nome_mae}}',
+    nome_pai = '{{update_form.fieldState.nome_pai.isVisible ? update_form.formData.nome_pai : update_form.sourceData.nome_pai}}',
+		data_nascimento = '{{update_form.fieldState.data_nascimento.isVisible ? update_form.formData.data_nascimento : update_form.sourceData.data_nascimento}}',
+		cpf = '{{update_form.fieldState.cpf.isVisible ? update_form.formData.cpf : update_form.sourceData.cpf}}',
+		rg = '{{update_form.fieldState.rg.isVisible ? update_form.formData.rg : update_form.sourceData.rg}}',
+		orgao_emissor = '{{update_form.fieldState.orgao_emissor.isVisible ? update_form.formData.orgao_emissor : update_form.sourceData.orgao_emissor}}',
+		uf = '{{update_form.fieldState.uf.isVisible ? update_form.formData.uf : update_form.sourceData.uf}}',
+		data_emissao = '{{update_form.fieldState.data_emissao.isVisible ? update_form.formData.data_emissao : update_form.sourceData.data_emissao}}',
+		celular = '{{update_form.fieldState.celular.isVisible ? update_form.formData.celular : update_form.sourceData.celular}}',
+		email = '{{update_form.fieldState.email.isVisible ? update_form.formData.email : update_form.sourceData.email}}'
+  WHERE id = {{data_table.selectedRow.id}};

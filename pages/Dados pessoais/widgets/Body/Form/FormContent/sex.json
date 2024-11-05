@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "alignment": "left",
   "animateLoading": true,
-  "bottomRow": 31,
+  "bottomRow": 29,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -35,18 +35,18 @@
   "options": [
     {
       "label": "Feminino",
-      "value": "F"
+      "value": "Feminino"
     },
     {
       "label": "Masculino",
-      "value": "M"
+      "value": "Masculino"
     },
     {
       "label": "Outro",
-      "value": "NB"
+      "value": "Outro"
     }
   ],
-  "originalBottomRow": 31,
+  "originalBottomRow": 29,
   "originalTopRow": 23,
   "parentColumnSpace": 16.4453125,
   "parentId": "f3o1jd5a7c",

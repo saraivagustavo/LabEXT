@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "670e497bcc62625bca1aa31e_3755ba57-ba98-4091-aa1e-8d0c5da233db",
+  "id": "2 - endereço residencial_cep",
+  "unpublishedCollection": {
+    "name": "cep",
+    "pageId": "2 - endereço residencial",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
