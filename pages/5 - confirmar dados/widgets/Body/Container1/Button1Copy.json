@@ -11,7 +11,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconAlign": "left",
   "iconName": "chevron-left",
   "isDefaultClickDisabled": true,
@@ -26,6 +30,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 32,
   "needsErrorInfo": false,
+  "onClick": "{{navigateTo('4 - endereço PROFISSIONAL', {}, 'SAME_WINDOW');}}",
   "originalBottomRow": 50,
   "originalTopRow": 46,
   "parentColumnSpace": 16.1767578125,

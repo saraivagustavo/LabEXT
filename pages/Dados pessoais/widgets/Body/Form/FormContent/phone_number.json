@@ -8,7 +8,7 @@
   "bottomRow": 23,
   "boxShadow": "none",
   "defaultDialCode": "+55",
-  "defaultText": "",
+  "defaultText": "02799999999",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"

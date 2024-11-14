@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM user_address LIMIT 10;\n\n",
+      "body": "INSERT INTO user_address (pais, cep, estado, cidade, bairro, rua, numero, complemento, logradouro, telefone, celular)\nVALUES ({{RadioGroup1.selectedOptionValue}},\n\t\t\t\t{{zip_code.text}},\n\t\t\t\t{{state.selectedOptionValue}},\n\t\t\t\t{{city.text}},\n\t\t\t\t{{neighborhood.text}}, \n\t\t\t\t{{street.text}},\n\t\t\t\t{{number.text}},\n\t\t\t\t{{Input2.text}},\n\t\t\t\t{{Input1.text}},\n\t\t\t\t{{PhoneInput1.dialCode}},\n\t\t\t\t{{PhoneInput2.dialCode}});\n\t\t\t \n\n ",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,7 +22,11 @@
       "name": "db-mysql-aiven",
       "pluginId": "mysql-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "executeOnLoad": false,
     "name": "InserirResidencialBrasil",
     "pageId": "2 - endereço residencial",

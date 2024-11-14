@@ -1,7 +1,7 @@
 INSERT INTO users (nome_completo, data_nascimento, email, sexo, nome_mae, nome_pai, senha, nova_senha, orgao_emissor, uf, celular, data_emissao, cpf, raca_cor)
 VALUES (
     '{{ full_name.text }}',
-    '{{ date_of_birth.formattedDate }}',
+    '{{date_of_birth.formattedDate}}',
     '{{ email.text }}',
     '{{ sex.selectedOptionValue }}',
     '{{ mother_name.text }}',
@@ -11,7 +11,7 @@ VALUES (
     '{{ org_emissor.text }}',
     '{{ uf.selectedOptionValue }}',
     '{{ phone_number.text }}',
-    '{{ date_emissao.formattedDate }}',
+    '{{date_emissao.formattedDate}}',
     '{{ cpf.text }}',
-    '{{ raca_cor.selectedOptionValue }}'
+    '{{ raca_cor.selectedOptionValue }}',
 );

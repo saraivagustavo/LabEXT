@@ -1,0 +1,10 @@
+INSERT INTO user_academic_professional
+(user_id,nivel_academico,area_conhecimento_1, area_conhecimento_2, area_conhecimento_3, link_lattes) 
+VALUES
+(6,
+'{{nivel_academico.selectedOptionValue}}',
+ '{{area_conhecimento_1.selectedOptionValue}}',
+ '{{area_conhecimento_2.selectedOptionValue || null}}',
+ '{{area_conhecimento_3.selectedOptionValue || null}}',
+ '{{link_lattes.text}}'
+)

@@ -1,0 +1,10 @@
+INSERT INTO user_address (pais, ceo, estado, cidade, bairro, rua, numero)
+VALUES ({{country.text}},
+				{{zip_code.text}},
+				{{state.selectedOptionValue}},
+				{{city.text}},
+				{{neighborhood.text}}, 
+				{{street.text}},
+				{{number.text}},
+				);
+			 

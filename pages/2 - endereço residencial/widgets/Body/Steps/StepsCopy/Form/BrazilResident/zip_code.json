@@ -54,7 +54,7 @@
   "onBlur": "{{cep.formatZipCode()}}",
   "onFocus": "{{}}",
   "onTextChanged": "",
-  "originalBottomRow": 6,
+  "originalBottomRow": 7,
   "originalTopRow": 0,
   "parentColumnSpace": 3.3046875,
   "parentId": "qb9q01oj10",

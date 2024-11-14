@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 23,
   "boxShadow": "none",
   "defaultOptionValue": "GREEN",
   "dynamicBindingPathList": [
@@ -28,7 +28,7 @@
   "key": "feg8npuvdb",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Área de Conhecimento 1",
+  "labelText": "Área de Conhecimento 2",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
@@ -53,9 +53,9 @@
   "rightColumn": 20,
   "serverSideFiltering": false,
   "sourceData": "[\n  {\n    \"name\": \"Ciências Exatas e da Terra\",\n    \"code\": \"CIENCIAS_EXATAS_TERRA\"\n  },\n  {\n    \"name\": \"Engenharias\",\n    \"code\": \"ENGENHARIAS\"\n  },\n  {\n    \"name\": \"Ciências da Saúde\",\n    \"code\": \"CIENCIAS_SAUDE\"\n  },\n  {\n    \"name\": \"Ciências Sociais Aplicadas\",\n    \"code\": \"CIENCIAS_SOCIAIS_APLICADAS\"\n  },\n  {\n    \"name\": \"Ciências Humanas\",\n    \"code\": \"CIENCIAS_HUMANAS\"\n  },\n  {\n    \"name\": \"Outros\",\n    \"code\": \"OUTROS\"\n  },\n  {\n    \"name\": \"Ciências Agrárias\",\n    \"code\": \"CIENCIAS_AGRARIAS\"\n  },\n  {\n    \"name\": \"Ciências da Vida\",\n    \"code\": \"CIENCIAS_VIDA\"\n  },\n  {\n    \"name\": \"Linguística, Letras e Artes\",\n    \"code\": \"LINGUISTICA_LETRAS_ARTES\"\n  }\n]\n",
-  "topRow": 9,
+  "topRow": 16,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "hl9edytctq",
-  "widgetName": "Select1Copy"
+  "widgetId": "dnfeyv2v4m",
+  "widgetName": "area_conhecimento_2"
 }
