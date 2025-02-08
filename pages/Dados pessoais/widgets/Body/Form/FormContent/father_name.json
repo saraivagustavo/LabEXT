@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 25,
   "boxShadow": "none",
-  "defaultText": "EXEMPLO PAI",
+  "defaultText": "Seu João",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"

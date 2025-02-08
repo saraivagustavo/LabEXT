@@ -1,13 +1,13 @@
 INSERT INTO user_address (pais, cep, estado, cidade, bairro, rua, numero, complemento, logradouro, telefone, celular)
-VALUES ({{RadioGroup1.selectedOptionValue}},
+VALUES ({{residesinbrazil.selectedOptionValue}},
 				{{zip_code.text}},
 				{{state.selectedOptionValue}},
 				{{city.text}},
 				{{neighborhood.text}}, 
 				{{street.text}},
 				{{number.text}},
-				{{Input2.text}},
-				{{Input1.text}},
-				{{PhoneInput1.dialCode}},
-				{{PhoneInput2.dialCode}});
+				{{complement.text}},
+				{{publicplace.text}},
+				{{telephone.dialCode}},
+				{{cellphone.dialCode}});
 			 

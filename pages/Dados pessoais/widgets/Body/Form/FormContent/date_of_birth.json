@@ -2,11 +2,12 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
+  "bottomRow": 11,
   "boxShadow": "none",
   "closeOnSelection": true,
   "dateFormat": "YYYY-MM-DD",
   "datePickerType": "DATE_PICKER",
+  "defaultDate": "2024-12-01T00:00:00.000-03:00",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -16,8 +17,13 @@
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onDateSelected"
+    }
+  ],
   "dynamicTriggerPathList": [],
-  "firstDayOfWeek": 0,
+  "firstDayOfWeek": "0",
   "isDisabled": false,
   "isLoading": false,
   "isRequired": true,
@@ -39,6 +45,7 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
+  "onDateSelected": "{{}}",
   "parentColumnSpace": 16.4453125,
   "parentId": "f3o1jd5a7c",
   "parentRowSpace": 10,
@@ -46,8 +53,8 @@
   "responsiveBehavior": "fill",
   "rightColumn": 42,
   "shortcuts": false,
-  "timePrecision": "minute",
-  "topRow": 2,
+  "timePrecision": "None",
+  "topRow": 4,
   "type": "DATE_PICKER_WIDGET2",
   "version": 2,
   "widgetId": "3tv1mt35sk",

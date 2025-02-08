@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 43,
+  "boxShadow": "none",
+  "buttonColor": "#71717a",
+  "buttonVariant": "TERTIARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "chevron-left",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "45vklj4t9t",
+  "leftColumn": 0,
+  "minWidth": 120,
+  "mobileBottomRow": 36,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 32,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('3 - academico e profissional', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 43,
+  "originalTopRow": 39,
+  "parentColumnSpace": 16.1767578125,
+  "parentId": "0pr4w9h868",
+  "parentRowSpace": 10,
+  "placement": "START",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 7,
+  "text": "Voltar",
+  "topRow": 39,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "njcmfm11ut",
+  "widgetName": "Voltar"
+}

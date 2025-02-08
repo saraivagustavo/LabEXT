@@ -1,0 +1,1 @@
+SELECT * FROM user_academic_professional LIMIT 10;

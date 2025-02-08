@@ -1,0 +1,9 @@
+INSERT INTO user_academic_professional (user_id, link_lattes, nivel_academico, area_conhecimento_1,area_conhecimento_2, area_conhecimento_3)
+VALUES (
+	1,
+	{{ getAcademicData.getData().link_lattes }},
+	{{ getAcademicData.getData().nv_academico }},
+	{{ getAcademicData.getData().areaDeConhecimento1 }},
+	{{ getAcademicData.getData().areaDeConhecimento2 }},
+	{{ getAcademicData.getData().areaDeConhecimento3 }}
+);

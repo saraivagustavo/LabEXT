@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "670e497bcc62625bca1aa31e_9666ab8c-7384-4b08-a6d3-df1c91c87cbd",
+  "id": "Dados pessoais_sendData",
+  "unpublishedCollection": {
+    "name": "sendData",
+    "pageId": "Dados pessoais",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

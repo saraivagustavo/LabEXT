@@ -3,9 +3,9 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 11,
   "boxShadow": "none",
-  "defaultText": "erick@Gmail.com",
+  "defaultText": "exemplo@gmail.com",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -45,8 +45,9 @@
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 64,
+  "shouldAllowAutofill": false,
   "showStepArrows": false,
-  "topRow": 1,
+  "topRow": 4,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "dg6z43b1x8",

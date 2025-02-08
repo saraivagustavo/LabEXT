@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO user_address (pais, cep, estado, cidade, bairro, rua, numero, complemento, logradouro, telefone, celular)\nVALUES ({{RadioGroup1.selectedOptionValue}},\n\t\t\t\t{{zip_code.text}},\n\t\t\t\t{{state.selectedOptionValue}},\n\t\t\t\t{{city.text}},\n\t\t\t\t{{neighborhood.text}}, \n\t\t\t\t{{street.text}},\n\t\t\t\t{{number.text}},\n\t\t\t\t{{Input2.text}},\n\t\t\t\t{{Input1.text}},\n\t\t\t\t{{PhoneInput1.dialCode}},\n\t\t\t\t{{PhoneInput2.dialCode}});\n\t\t\t ",
+      "body": "INSERT INTO user_address (pais, cep, estado, cidade, bairro, rua, numero, complemento, logradouro, telefone, celular)\nVALUES ({{residesinbrazil.selectedOptionValue}},\n\t\t\t\t{{zip_code.text}},\n\t\t\t\t{{state.selectedOptionValue}},\n\t\t\t\t{{city.text}},\n\t\t\t\t{{neighborhood.text}}, \n\t\t\t\t{{street.text}},\n\t\t\t\t{{number.text}},\n\t\t\t\t{{complement.text}},\n\t\t\t\t{{publicplace.text}},\n\t\t\t\t{{telephone.dialCode}},\n\t\t\t\t{{cellphone.dialCode}});\n\t\t\t ",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

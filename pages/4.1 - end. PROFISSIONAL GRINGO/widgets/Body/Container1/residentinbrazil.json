@@ -1,0 +1,62 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 14,
+  "boxShadow": "none",
+  "defaultOptionValue": "N",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSelectionChange"
+    }
+  ],
+  "flexVerticalAlignment": "start",
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "8qcjj4j1s2",
+  "label": "Reside no Brasil?",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 38,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 32,
+  "needsErrorInfo": false,
+  "onSelectionChange": "{{navigateTo('4 - endereço PROFISSIONAL', {\n  \"endereço residencial gringo\": \"N\"\n}, 'SAME_WINDOW').then(() => {\n  resetWidget(\"\", true);\n}).catch(() => {\n  navigateTo('4 - endereço PROFISSIONAL', {}, 'SAME_WINDOW');\n});}}",
+  "options": [
+    {
+      "label": "Sim",
+      "value": "S"
+    },
+    {
+      "label": "Não",
+      "value": "N"
+    }
+  ],
+  "originalBottomRow": 13,
+  "originalTopRow": 7,
+  "parentColumnSpace": 3.3046875,
+  "parentId": "9ot3y4xzvo",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 14,
+  "topRow": 8,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "vkfa40oibj",
+  "widgetName": "residentinbrazil"
+}

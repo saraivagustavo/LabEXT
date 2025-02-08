@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 29,
+  "bottomRow": 32,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -51,7 +51,7 @@
   "rightColumn": 64,
   "serverSideFiltering": false,
   "sourceData": "[\n  {\n    \"name\": \"Amarela\",\n    \"code\": \"AMARELA\"\n  },\n  {\n    \"name\": \"Branca\",\n    \"code\": \"BRANCA\"\n  },\n  {\n    \"name\": \"Indígena\",\n    \"code\": \"INDIGENA\"\n  },\n\t{\n    \"name\": \"Não Declarada\",\n    \"code\": \"NDECLARADA\"\n  },\n\t{\n    \"name\": \"Parda\",\n    \"code\": \"PARDA\"\n  },\n\t{\n    \"name\": \"Preta\",\n    \"code\": \"PRETA\"\n  }\n]",
-  "topRow": 22,
+  "topRow": 25,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "49hqa19ckw",

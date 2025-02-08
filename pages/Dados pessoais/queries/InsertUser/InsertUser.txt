@@ -1,17 +1,17 @@
-INSERT INTO users (nome_completo, data_nascimento, email, sexo, nome_mae, nome_pai, senha, nova_senha, orgao_emissor, uf, celular, data_emissao, cpf, raca_cor)
+INSERT INTO users (nome_completo, nome_mae, nome_pai, data_nascimento, cpf, rg, orgao_emissor, uf, data_emissao, celular, email, senha, sexo,raca_cor)
 VALUES (
-    '{{ full_name.text }}',
-    '{{date_of_birth.formattedDate}}',
-    '{{ email.text }}',
-    '{{ sex.selectedOptionValue }}',
-    '{{ mother_name.text }}',
-    '{{ father_name.text }}',
-		'{{ password.text }}',
-    '{{ verify_password.text }}',
-    '{{ org_emissor.text }}',
-    '{{ uf.selectedOptionValue }}',
-    '{{ phone_number.text }}',
-    '{{date_emissao.formattedDate}}',
-    '{{ cpf.text }}',
-    '{{ raca_cor.selectedOptionValue }}',
+	'{{ full_name.text }}',
+	'{{ mother_name.text }}',
+	'{{ father_name.text }}',
+	'{{date_of_birth.formattedDate}}',
+	'{{ cpf.text }}',
+	'{{ rg.text }}',
+	'{{ org_emissor.text }}',
+	'{{ uf.selectedOptionValue }}',
+	'{{date_emissao.formattedDate}}',
+	'{{ phone_number.text }}',
+	'{{ email.text }}',
+	'{{ password.text }}',
+	'{{ sex.selectedOptionValue }}',
+	'{{ raca_cor.selectedOptionValue }}'
 );

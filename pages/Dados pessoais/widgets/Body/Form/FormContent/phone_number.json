@@ -5,10 +5,10 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 23,
+  "bottomRow": 25,
   "boxShadow": "none",
   "defaultDialCode": "+55",
-  "defaultText": "02799999999",
+  "defaultText": "27999999999",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -40,8 +40,8 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 11,
   "needsErrorInfo": false,
-  "originalBottomRow": 26,
-  "originalTopRow": 19,
+  "originalBottomRow": 25,
+  "originalTopRow": 18,
   "parentColumnSpace": 16.4453125,
   "parentId": "f3o1jd5a7c",
   "parentRowSpace": 10,
@@ -49,7 +49,7 @@
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 42,
-  "topRow": 16,
+  "topRow": 18,
   "type": "PHONE_INPUT_WIDGET",
   "version": 1,
   "widgetId": "b93dee4cb1",

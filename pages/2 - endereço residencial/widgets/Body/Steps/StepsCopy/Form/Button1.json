@@ -31,7 +31,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 32,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('3 - academico e profissional', {}, 'SAME_WINDOW');\nInserirResidencialBrasil.run()}}",
+  "onClick": "{{sendData.storageData();\nnavigateTo('3 - academico e profissional', {}, 'SAME_WINDOW');}}",
   "originalBottomRow": 44,
   "originalTopRow": 40,
   "parentColumnSpace": 16.82904052734375,

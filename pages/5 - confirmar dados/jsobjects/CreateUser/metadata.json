@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "670e497bcc62625bca1aa31e_a26976b4-e573-469e-8cde-d90837d5c761",
+  "id": "5 - confirmar dados_CreateUser",
+  "unpublishedCollection": {
+    "name": "CreateUser",
+    "pageId": "5 - confirmar dados",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "0"
+      }
+    ]
+  }
+}

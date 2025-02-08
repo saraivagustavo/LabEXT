@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "0",
-  "bottomRow": 41,
+  "bottomRow": 39,
   "boxShadow": "none",
   "children": [
     {
@@ -75,8 +75,8 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "originalBottomRow": 41,
-  "originalTopRow": 12,
+  "originalBottomRow": 39,
+  "originalTopRow": 10,
   "parentColumnSpace": 16.1767578125,
   "parentId": "0pr4w9h868",
   "parentRowSpace": 10,
@@ -84,7 +84,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 52,
   "shouldScrollContents": true,
-  "topRow": 12,
+  "topRow": 10,
   "type": "CONTAINER_WIDGET",
   "version": 1,
   "widgetId": "pdf37ecjgr",

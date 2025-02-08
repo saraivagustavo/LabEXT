@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 7,
   "boxShadow": "none",
-  "defaultText": "123",
+  "defaultText": "87654321",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -20,7 +20,7 @@
   "inputType": "TEXT",
   "isDisabled": false,
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": false,
   "isVisible": true,
   "key": "4emclhm8ao",
   "label": "RG",

@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 6,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
-  "defaultText": "",
+  "defaultText": "12345-678",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -15,7 +15,11 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onBlur"
+    }
+  ],
   "iconAlign": "left",
   "inputType": "TEXT",
   "isDisabled": false,
@@ -38,6 +42,7 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 24,
   "needsErrorInfo": false,
+  "onBlur": "{{cep.formatZipCode();}}",
   "originalBottomRow": 30,
   "originalTopRow": 23,
   "parentColumnSpace": 3.3046875,

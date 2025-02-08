@@ -1,0 +1,57 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 11,
+  "boxShadow": "none",
+  "defaultText": "{{getPersonalResidencialData.getData().cidade}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "iconAlign": "left",
+  "inputType": "TEXT",
+  "isDisabled": true,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "4emclhm8ao",
+  "label": "Cidade",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 31,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 13,
+  "mobileTopRow": 30,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 16.4453125,
+  "parentId": "8ixmjs2q89",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 48,
+  "showStepArrows": false,
+  "topRow": 4,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "tx1aytcbhy",
+  "widgetName": "city"
+}

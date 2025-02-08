@@ -1,0 +1,13 @@
+INSERT INTO user_address (rua, numero, cidade, estado, cep, bairro, logradouro, complemento, telefone, celular)
+VALUES (
+    {{ getPersonalResidencialData.getData().rua }},
+    {{ getPersonalResidencialData.getData().numero }},
+    {{ getPersonalResidencialData.getData().cidade }},
+    {{ getPersonalResidencialData.getData().estado }},
+    {{ getPersonalResidencialData.getData().cep }},
+    {{ getPersonalResidencialData.getData().bairro }},
+    {{ getPersonalResidencialData.getData().logradouro }},
+    {{ getPersonalResidencialData.getData().complemento }},
+    {{ getPersonalResidencialData.getData().telefone }},
+    {{ getPersonalResidencialData.getData().celular }}
+);

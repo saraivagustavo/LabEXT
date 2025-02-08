@@ -20,7 +20,7 @@
   "inputType": "TEXT",
   "isDisabled": false,
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": false,
   "isVisible": true,
   "key": "4emclhm8ao",
   "label": "Orgão Emissor",

@@ -7,6 +7,7 @@
   "closeOnSelection": true,
   "dateFormat": "YYYY-MM-DD",
   "datePickerType": "DATE_PICKER",
+  "defaultDate": "2024-12-12T09:57:48.4848-03:00",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -20,7 +21,7 @@
   "firstDayOfWeek": 0,
   "isDisabled": false,
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": false,
   "isVisible": true,
   "key": "dumcqn11g7",
   "label": "Data de emissao",

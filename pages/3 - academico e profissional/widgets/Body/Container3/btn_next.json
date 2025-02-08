@@ -31,7 +31,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 32,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('4 - endereço PROFISSIONAL', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('4 - endereço PROFISSIONAL', {}, 'SAME_WINDOW');\nsendData.storageData();}}",
   "originalBottomRow": 76,
   "originalTopRow": 72,
   "parentColumnSpace": 16.1767578125,
