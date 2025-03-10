@@ -8,7 +8,7 @@
 |---------|-------------|------|------------|--------|
 | 1.0 | Elson Ramos | 08/02/2025 | ------------ | Desenvolvido |
 | 1.0 | Erick Loyola | 08/02/2025 | ------------ | Desenvolvido |
-| 1.0 | Gustavo Sarraiva | 08/02/2025 | ------------ | Desenvolvido |
+| 1.0 | Gustavo Saraiva | 08/02/2025 | ------------ | Desenvolvido |
 | 1.0 | Renato Marques | 08/02/2025 | ------------ | Desenvolvido |
 | 1.0 | Lara Aguilar | 08/02/2025 | ------------ | Desenvolvido |
 | 1.0 | Pedro Albani | 08/02/2025 | ------------ | Desenvolvido |
